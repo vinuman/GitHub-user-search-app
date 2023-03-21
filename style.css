@@ -232,7 +232,8 @@ main{
         margin-top: 0rem;
         position: absolute;
         top:32%;
-        right: 25%;
+        right: 15%;
+        overflow-wrap: break-word;
     }
     
     .right > p{
