@@ -229,11 +229,9 @@ main{
     }
     .heading{
         flex-direction: column;
-        margin-top: 0rem;
-        position: absolute;
-        top:32%;
-        right: 15%;
-        overflow-wrap: break-word;
+        margin-top: 1rem;
+        top:5%;
+        right: 5%;
     }
     
     .right > p{
