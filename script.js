@@ -98,7 +98,7 @@ searchButton.addEventListener('click', (e)=>{
             footer[3].style.opacity = '0.6';
             footerIcons[3].style.opacity = '0.6';
         } else{
-            footer[3].textContent = company;
+            footer[3].textContent = company.replace('@', '');
         }
         
       });
