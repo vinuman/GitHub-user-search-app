@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>GitHub user search app</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>devfinder</h1>
+    <div class="page-theme">
+      <p>Dark</p>
+      <img src="icon-moon.svg" alt="">
+    </div>
+  </header>
+  <!-- HEADER ENDS -->
+
+  <!-- SEARCHBAR -->
+  <form action="submit">
+    <img src="icon-search.svg" alt="search icon">
+    <input type="text" id="username" name="username" placeholder="Search GitHub username…">
+    <button class="search">Search</button>
+    <p class="no-results">No results</p>
+  </form>
+  <!-- SEARCHBAR ENDS -->
+
+  <!-- PROFILE CARD -->
+  <main>
+    <div class="left">
+      <div class="image-container">
+        <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="" width="117" height="117">
+      </div>
+    </div>
+    <div class="right">
+      <div class="heading">
+        <div class="name">
+          <h1>The Octocat</h1>
+          <h2>@ octocat</h2>
+        </div>
+        <p>Joined 25 Jan 2011</p>
+      </div>
+      <p class="bio">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. 
+        Quisque volutpat mattis eros.</p>
+  
+      <div class="numbers">
+        <div class="numbers-data">
+          <p>Repos</p>
+          <h3>8</h3>
+        </div>
+        <div class="numbers-data">
+          <p>Followers</p>
+          <h3>3938</h3>
+        </div>
+        <div class="numbers-data">
+          <p>Following</p>
+          <h3>9</h3>
+        </div>
+      </div>
+  
+      <div class="other-data">
+        <div class="info">
+          <img src="icon-location.svg" alt="location icon">
+          <p>San Francisco</p>
+        </div>
+        <div class="info">
+          <img src="icon-twitter.svg" alt="twitter icon">
+          <p>Not Available</p>
+        </div>
+        <div class="info">
+          <img src="icon-website.svg" alt="website icon">
+          <p>https://github.blog</p>
+        </div>
+        <div class="info">
+          <img src="icon-company.svg" alt="company icon">
+          <p>github</p>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+  <p class="search-another">Try a different search!</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
